@@ -1,0 +1,72 @@
+<html>
+    <head>
+    <title>招生就业 - 中国野鸡大学 - China Wild Checken University</title>
+    <link rel="stylesheet" type="text/css" href="../css/my.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <script src="https://cdn.bootcss.com/jspdf/1.4.0/jspdf.debug.js"></script>
+    <script src="../js/my.js"></script>
+    </head>
+    <body>
+        <div id="banner">
+            <img id="banner-img" src="../images/BrowserPreview_tmp (12).gif">
+        </div>
+       
+        <div id="forword">
+            <div class="forword-img">
+                <h3 class="forword-text">招生就业</h3>
+            </div>
+        </div>
+        <div id="text">
+            <p>
+               <b>平台只提供简单的生成，不具备任何法律效益，仅供娱乐。如使用该网站生成的东西从事任何违法行为，所有后果自行承担，平台概不负责</b><br>
+            </p>
+        </div>
+        <div id="forword">
+                姓名：<input class="name" type="text" id="name" name="name" placeholder="姓名">
+                系别：<select class="xb" name="xb" id="xb" >
+                    <option  value="畜牧养殖系">畜牧养殖系</option>
+                    <option value="畜牧繁育系">畜牧繁育系</option>
+                    <option value="畜牧产品烹饪系">畜牧产品烹饪系</option>
+                    <option value="畜牧产品宰杀系">畜牧产品宰杀系</option>
+                    <option value="金融会计系（收钱方向）">金融会计系（收钱方向）</option>
+                    <option value="电子系（电子销售方向）">电子系（电子销售方向）</option>
+                </select><br>
+                <button   onclick="onShow()" title="生成">生成</button>
+                <button id="download" onclick="downloadPDF()" hidden='true'>下载</button>
+
+            </div>
+
+        <div id="tzs" hidden="true" class="tzs">
+            <div id="biglogo" class="biglogo">
+                <img src="../images/logo.png" class="p"> 
+                <img src="../images/text.png" class="r"> 
+                <img src="../images/en.png" class="r"> 
+                <div  class="title"><p>录&nbsp;&nbsp;取&nbsp;&nbsp;通&nbsp;&nbsp;知&nbsp;&nbsp;书</p></div>
+
+            </div>
+            <p id="tzsnm"></p>
+
+            <p id="tzsxb" class="tzsxb"></p>
+            <div id="info">
+                
+                <img src="../images/1644219990160.jpg"  class="o"> 
+                <b> 校长： </b>
+               
+            </div>
+            <div id="info">
+        
+                <p id="tzsdate"></p>
+            
+            </div>
+        </div>
+        
+
+        <div id="footer">
+            <img id="footer-img" src="../images/BrowserPreview_tmp (11).gif">
+        </div>
+    </body>
+
+</html>
